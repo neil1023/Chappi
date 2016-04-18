@@ -377,7 +377,7 @@ controller.hears(['(.*)(get|want|order|would like)(.*)pizza(.*)'], 'message_rece
     });
 });
 
-controller.on('message_received', function(bot, message) {
-    bot.reply(message, 'Chappi is glad he could help.');
-    return false;
-});
+// controller.on('message_received', function(bot, message) {
+//     bot.reply(message, 'Chappi is glad he could help.');
+//     return false;
+// });
